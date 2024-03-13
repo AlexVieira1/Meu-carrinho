@@ -25,7 +25,7 @@ function removerItem(item) {
 function valorCompra() {
     var valorTotalCompra = document.getElementById("valorTotalCompra")
     var valor = 0
-    for (var i = 0; i < valorTotal.length; i++) {
+    for (var i = 1; i < valorTotal.length; i++) {
         valor += valorTotal[i]
     }
     valorTotalCompra.innerHTML = valor.toFixed(2)
